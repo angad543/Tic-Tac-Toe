@@ -1,0 +1,131 @@
+body {
+    background-color: antiquewhite;
+    background-image: url(../pics/bgtic-tac-toe2.jpg);
+    background-repeat: repeat;
+}
+#d3
+{
+    display: none;
+    margin-top: 50px;
+}
+#d2
+{
+    display: none;
+    margin-top: 100px;
+    
+}
+
+#outer-div {
+    
+    background-color: white;
+    background-image: url(../pics/bgtic-tac-toe3.jpg);
+    width: 450px;
+    height: 600px;
+    opacity: 0.99;
+    margin: 30px 500px 100px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+}
+
+#main-div {
+    background-color: rgb(1, 1, 1);
+    width: 320px;
+    height: 320px;
+    margin: auto;
+
+}
+#turn
+{
+    background-color: rgb(192, 255, 249);
+    width: 100px;
+    margin: -10px 170px 10px 170px;
+    
+}
+
+.col1 {
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    /* border-radius: 20px; */
+
+}
+
+#b3 {
+    margin-right: 0px;
+
+}
+
+.col2 {
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+#b6 {
+    margin-right: 0px;
+
+}
+
+.col3 {
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+
+    float: left;
+
+}
+
+#b9 {
+    margin-right: 0px;
+
+}
+.col:hover
+{
+    background-color: aliceblue;
+}
+.operation1 {
+    background-image: url(../pics/tcross.png);
+    
+    
+    
+}
+
+.operation2 {
+    background-image: url(../pics/tzero.png);
+   
+}
+#restart
+{
+    background-color: orange;
+    width: 100px;
+    box-shadow: 10px 10px 5px gray;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+   
+}
+#restart:hover{
+    background-color: white;
+    width: 100px;
+    box-shadow: 10px 10px 5px gray;
+    cursor: pointer;
+    color: orange;
+    border-radius: 10px;
+    border: 2px solid orange;
+
+}
+#restart:active
+{
+    transform: scale(0.7);
+    
+}
